@@ -53,12 +53,12 @@
     <webApplication id="Broker" name="Broker" location="Broker.war" contextRoot="/broker">
         <classloader apiTypeVisibility="+third-party"/>
         <application-bnd>
-            <security-role id="StockTrader" name="StockTrader">
+            <!--<security-role id="StockTrader" name="StockTrader">
                 <group name="StockTrader"/>
             </security-role>
             <security-role id="StockViewer" name="StockViewer">
                 <group name="StockViewer"/>
-            </security-role> 
+            </security-role>--> 
         </application-bnd>
     </webApplication>
 </server>
