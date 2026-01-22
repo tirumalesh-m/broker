@@ -22,5 +22,5 @@
     ignoreApplicationAuthMethod="true"/>
 
   <webAppSecurity displayAuthenticationRealm="true" logoutOnHttpSessionExpire="true" preserveFullyQualifiedReferrerUrl="true"
-    trackLoggedOutSSOCookies="true" useOnlyCustomCookieName="true" ssoUseDomainFromURL="true"/>
+    trackLoggedOutSSOCookies="true" ssoCookieName="StockTraderSSO" useOnlyCustomCookieName="true" ssoUseDomainFromURL="true"/>
 </server>
