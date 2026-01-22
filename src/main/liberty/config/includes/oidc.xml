@@ -19,6 +19,7 @@
     jwksUri="${OIDC_JWKS_URL}"
     userNameAttribute="sub"
     groupNameAttribute="roles"
+    sslRef="defaultSSLConfig"     
     ignoreApplicationAuthMethod="true"/>
 
   <webAppSecurity displayAuthenticationRealm="true" logoutOnHttpSessionExpire="true" preserveFullyQualifiedReferrerUrl="true"
